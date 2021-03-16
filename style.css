@@ -1,0 +1,96 @@
+.textfields-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    width: 100%;
+    height: 100%;
+    /*border: 3px solid green*/
+}
+
+.top-container {
+    width: 100%;
+    height: 20%;
+    /*background-color: red;*/
+}
+
+.mid-container {
+    width: 100%;
+    flex-grow: 1;
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.mid-left-container {
+    width: 30%;
+    height: 100%;
+    /*background-color: yellow; */
+}
+
+
+.mid-center-container {
+    height: 100%;
+    flex-grow: 1;
+    /*border: 3px solid yellow;*/
+    justify-content: center;
+}
+
+.mid-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+
+}
+
+.mid-right-container {
+    width: 30%;
+    height: 100%;
+    /*background-color: greenyellow;*/
+}
+
+.bottom-container {
+    width: 100%;
+    height: 20%;
+    /*background-color: blue;*/
+}
+
+form.input {
+    
+    height: 50%;
+}
+
+fieldset {
+    background-color: azure;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+/*
+Test.html stuff
+*/
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+h1.title {
+    font-weight: bold;
+    margin-left: 45%;
+}
+
+input.submit-btn {
+    width: 100%;
+}
+
+tr.centered {
+    align: center;
+}
