@@ -2,21 +2,39 @@
 
 if(isset($_POST['Submit'])) {
 
-    $logins = array('Test' => '123456');
+    #$logins = array('Test' => '123456');
+    $logins = array();
+
+
+    $acc_file =  fopen("./text_files/accounts.txt","r");
+
+    if($acc_file) {
+        while (($line = fgets($acc_file))  !== false) {
+
+            $info = explode(',', $line); #Separate each line
+            /*
+            $info[0] = username
+            $info[1] = password
+            */ 
+            $logins[$info[0]] = $info[1]; #add credentials to associative array
+        }
+    }
+
+    print_r($logins);
+
 
     /* Check and assign submitted Username and Password to new variable */
 		$Username = isset($_POST['username']) ? $_POST['username'] : '';
 		$Password = isset($_POST['password']) ? $_POST['password'] : '';
-
-    /* Check Username and Password existence in defined array */		
-		if (isset($logins[$Username]) && $logins[$Username] == $Password){
-			/* Success: Set session variables and redirect to Protected page  */
-			$_SESSION['UserData']['Username']=$logins[$Username];
-			header("location:index.php");
-			exit;
-        } else {
-            $msg="Invalid Login Info";   
-        }
+        print($Username . "," . $Password);
+    
+    #Check if credentials are in logins array
+    if(array_key_exists($Username, $logins) && trim($logins[$Username]) == trim($Password)) {
+        header("location:index.php");
+		exit;
+    } else {
+        print("credentials not found in array<br>");
+    }
 }
 ?>
 

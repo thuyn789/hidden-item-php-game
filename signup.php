@@ -1,33 +1,3 @@
-<?php session_start(); /*start session */
-    if(isset($_POST['submit'])) {
-        //Check if password and confirm_password are the same.
-        /* Check and assign submitted Username and Password to new variable 
-		$username = isset($_POST['username']) ? $_POST['username'] : '';
-		$password = isset($_POST['password']) ? $_POST['password'] : '';
-        $confirm_password = isset($_Post['confirm_password']) ? $_POST['confirm_passowrd'] : '';
-        */
-        $username = $_REQUEST['username'];
-        $password = $_REQUEST['password'];
-        $confirm_password = $_REQUEST['confirm_password'];
-
-
-
-        if(strcmp($password, $confirm_password) !== 0) {   
-            $str = nl2br($password . "," . $confirm_password);
-            print($str);
-
-
-        } else {
-            $write_str = nl2br($username . "," . $password . "\n");
-            file_put_contents("./text_files/accounts.txt", $write_str, FILE_APPEND);
-            echo "Thank you for signing up!";
-        }
-    }
-
-
-
-?>
-
 
 <!doctype html>
 <html lang="en">
@@ -43,7 +13,7 @@ Sign up page goes here
     <h1 class="title">Sign up!</h1>
 
     <div class="inputs">
-        <form class="input" action="" method="POST" name="signup_form">
+        <form class="input" action="./signup-submit.php" method="POST" name="signup_form">
             <fieldset>
                 <table>
                     <!--Username-->

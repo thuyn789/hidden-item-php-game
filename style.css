@@ -94,3 +94,7 @@ input.submit-btn {
 tr.centered {
     align: center;
 }
+
+p.error {
+    color: red;
+}
