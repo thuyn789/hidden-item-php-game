@@ -1,4 +1,7 @@
+<?php
+    session_start(); #start session
 
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -16,7 +19,7 @@ Sign up page goes here
         <form class="input" action="./signup-submit.php" method="POST" name="signup_form">
             <fieldset>
                 <table>
-                    <!--Username-->
+                    <!--Username row-->
                     <tr>
                         <td>
                             <label for="username">Username:</label>
