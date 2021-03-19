@@ -1,141 +1,70 @@
-<!-- shared meta data HTML -->
-<?php include 'meta-data.html'; ?>
+<?php session_start(); #start session?>
 
-<body>
-	<!-- shared banner HTML -->
-	<div id="bannerarea">
-		<?php include 'common_header.html';?>
-	</div>
-	
-	<?php
-    // define variables and set to empty values
-	$name = $gender = $age = $personality = "";
-	$fav_os = $age_min = $age_max = $current_data = "";
-	$seek_male = $seek_female = "";
-	$error = 0;
+<?php include 'common/common-meta-header.php'; ?>
 
-	//Check if the input file exists, 
-	//if not, create and refresh the page capture data
-	if(file_exists("data/singles.txt")){
-		$data_file = "data/singles.txt";
-	}else{
-		$data_file = fopen("data/singles.txt", "w");
-	}
 
-	//check the request method and assign data from forms to local variable
-	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+<?php 
+//Check if user get to this page legitimately by going through signup.php
+if(isset($_POST["submit"])){
+    if(strcmp($_REQUEST['password'], $_REQUEST['confirm_password']) !== 0) { #if the passwords don't match, go back to signup page
+    echo "<p class='error'>Sorry, the passwords did not match. Please try again</p>";
+    echo "<a href='signup.php'>Return to Sign up </a>";
+    } else { #otherwise, create save_string and save to user_account.txt file
+        $name = $email = $pass = $save_str1 = "";
 
-		//Validate if all forms has been filed completely and valid
-		$validator = 0;
+            //Check if the input file exists, 
+            //if not, create and refresh the page capture data
+        if(file_exists("user_database/user_account.txt")){
+            $data_file = "user_database/user_account.txt";
+        }else{
+            $data_file = fopen("user_database/user_account.txt", "w");
+        }
 
-		if (isset($_POST["name"])) {
-			$name = test_input($_POST["name"]);
-			$validator++;
-		}
+        $name = $_REQUEST['username'];
+        $email = $_REQUEST['email'];
+        $pass = $_REQUEST['password'];
 
-		if (isset($_POST["gender"])) {
-			$gender = test_input($_POST["gender"]);
-			$validator++;
-		}
+        //
+        if(is_registered($data_file, $name)){
+            echo "You already registered. <br/>";
+            echo "<a href='./index.php'>Please login here </a>";
+        }else{
+           echo "<a href='./index.php'>Return to login </a>";
+           $save_str1 = $name . "," . $email. "," . $pass . "\r\n";
+           file_put_contents($data_file, $save_str1, FILE_APPEND);
 
-		if (isset($_POST["age"])) {
-			$age = test_input($_POST["age"]);
-			$validator++;
-		}
+            $_SESSION['username'] = $name; #create session variable for username
+            $_SESSION['score'] = 0; #initialize user's score for current session 
+        }
+    }
+}else{
+    //If user gets here by typing the URL
+    //send them back to sign up page
+    header("location: signup.php");
+}
 
-		if (isset($_POST["personality"])) {
-			$personality = test_input($_POST["personality"]);
-			$validator++;
-		}
+//This function is to check if the user's name is registered
+function is_registered($file, $user_name) {
+    //Assign all info to $data
+    $data = file_get_contents($file);
 
-		if (isset($_POST["fav_os"])) {
-			$fav_os = test_input($_POST["fav_os"]);
-			$validator++;
-		}
+    //Break up inputted data using end-of-line character
+    //assign all broken down data to array $lines
+    $lines = explode("\n", $data);
 
-		if (isset($_POST["age_min"])) {
-			$age_min = test_input($_POST["age_min"]);
-			$validator++;
-		}
+        //this 'for' loop will look for the user
+    for($i=0; $i < count($lines); $i++){
+        $detail_info = explode(",", $lines[$i]);
+        if(strcmp($user_name, $detail_info[0]) === 0){
+            return true;
+        }
+    }
+}
+?>
 
-		if (isset($_POST["age_max"])) {
-			$age_max = test_input($_POST["age_max"]);
-			$validator++;
-		}
+    <!--
+    <p>Thank you <?php  $_REQUEST['username']?>!</p>
+    <a href='./login.php'>Return to login</a>
+-->
 
-		if (isset($_POST["seek_male"])) {
-			$seek_male = test_input($_POST["seek_male"]);
-			$validator++;
-		}
-
-		if (isset($_POST["seek_female"])) {
-			$seek_female = test_input($_POST["seek_female"]);
-			$validator++;
-		}
-
-		//When all forms have been filled and valid,
-		//or at least one form is filled
-		//save all data to text file
-		if($error == 0 && $validator >= 7){
-			//format and save all info to current_data
-			$current_data = $name.",".$gender.",".$age.",".$personality.",".$fav_os.",".$age_min.",".$age_max.",".$seek_male.$seek_female."\n";
-			
-			//Write all info to text file data_file
-			//echo $current_data
-			file_put_contents($data_file, $current_data, FILE_APPEND);
-		}
-	}
-
-	//check if the user's name is registered
-	function is_registered() {
-		//Assign all info to $data
-		$data = file_get_contents($data_file);
-
-		//Break up inputted data using end-of-line character
-		//assign all broken down data to array $lines
-		$lines = explode("\n", $data);
-
-		//this 'for' loop will look for the user
-		for($i=0; $i < count($lines); $i++){
-			$detail_info = explode(",", $lines[$i]);
-			if(strcmp($name, $detail_info[0]) === 0){
-				return true;
-			}
-		}
-	}
-
-	//Test function
-	function test_input($data) {
-		$data = trim($data);
-		$data = stripslashes($data);
-		$data = htmlspecialchars($data);
-		return $data;
-	}
-
-	?>
-
-	<!-- your HTML output follows -->
-	<?php
-	if($error == 1){
-		echo "This name is been registered. Please login to find your matches";
-	}else{
-		?>
-		<p class="greetings">Thank you!</p>
-		<p>
-			Welcome to NerdLuv,
-			<?php
-			echo " ".$name."!";
-			?>
-		</p>
-		<?php
-	}
-	?>
-
-	<p>Now <a href="matches.php">log in to see your matches!</a></p>
-
-	<!-- shared page bottom HTML -->
-	<div>
-		<?php include 'common.php';?>
-	</div>
-</body>
-</html>
+<?php include 'common/common-footer.php'; ?>

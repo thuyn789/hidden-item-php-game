@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
+
     width: 100%;
     height: 100%;
     /*border: 3px solid green*/
@@ -56,7 +56,7 @@
 }
 
 form.input {
-    
+
     height: 50%;
 }
 
@@ -93,4 +93,35 @@ input.submit-btn {
 
 tr.centered {
     align: center;
+}
+
+p.error {
+    color: red;
+}
+
+/*
+Styling for all levels in games
+*/
+
+div.level1{
+    margin: auto;
+}
+div.level1 table, th, td {
+    border: transparent;
+    border-collapse: collapse;
+}
+
+div.level1 input{
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none; 
+    background-color: transparent;
+    color:transparent;
+    font-size: 20px;
+}
+div.level1 img{
+    position: absolute;
+    z-index: -1;
 }
