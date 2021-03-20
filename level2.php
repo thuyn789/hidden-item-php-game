@@ -1624,11 +1624,11 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="level2.php" method="POST" name="loading">
+        <form class="input" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td colspan="2" class="centered">
-                        <input name="Submit" type="submit" class="submit-btn" value="Next Level">
+                        <input name="Submit" type="submit" class="submit-btn" value="View Leader's Board">
                     </td>
                 </tr>
             </table>
@@ -1641,11 +1641,11 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="level2.php" method="POST" name="loading">
+        <form class="input" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td class="centered">
-                        <input name="Submit" type="submit" class="submit-btn" value="Next Level">
+                        <input name="Submit" type="submit" class="submit-btn" value="View Leader's Board">
                     </td>
                 </tr>
             </table>
@@ -1658,11 +1658,11 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="level2.php" method="POST" name="loading">
+        <form class="input" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td class="centered">
-                        <input name="Submit" type="submit" class="submit-btn" value="Next Level">
+                        <input name="Submit" type="submit" class="submit-btn" value="View Leader's Board">
                     </td>
                 </tr>
             </table>

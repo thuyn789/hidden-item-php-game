@@ -145,3 +145,7 @@ div.level1 img{
 .level3_image{
     width: 700px;
 }
+
+.leadersboard td, th{
+    border: 2px solid black;
+}

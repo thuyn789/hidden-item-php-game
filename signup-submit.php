@@ -30,7 +30,7 @@ if(isset($_POST["submit"])){
             echo "<a href='./index.php'>Please login here </a>";
         }else{
            echo "<a href='./index.php'>Return to login </a>";
-           $save_str1 = $name . "," . $email. "," . $pass . "\r\n";
+           $save_str1 = $name . "," . $email. "," . $pass . "\n";
            file_put_contents($data_file, $save_str1, FILE_APPEND);
 
             $_SESSION['username'] = $name; #create session variable for username
