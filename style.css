@@ -99,14 +99,20 @@ p.error {
     color: red;
 }
 
+
 /*
 Styling for all levels in games
 */
+.games{
+    align: center;
+}
 
 div.level1{
     margin: auto;
 }
+
 div.level1 table, th, td {
+    /*border: 5px solid black*/
     border: transparent;
     border-collapse: collapse;
 }
@@ -118,10 +124,24 @@ div.level1 input{
     overflow: hidden;
     outline:none; 
     background-color: transparent;
+    /*color: blue;*/
     color:transparent;
     font-size: 20px;
 }
+
 div.level1 img{
     position: absolute;
     z-index: -1;
+}
+
+.level1_image{
+    width: 700px;
+}
+
+.level2_image{
+    width: 950px;
+}
+
+.level3_image{
+    width: 700px;
 }

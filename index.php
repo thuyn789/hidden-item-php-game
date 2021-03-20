@@ -49,8 +49,6 @@ session_start(); /*start session */
                 setcookie("username", $Username, time() - 3600, "/");
             }
         }
-        setcookie("username", $Username, time() + (86400 * 30), "/");
-        setcookie("score", 0, time() + (86400 * 30), "/");//set score
         header("location:level_difficulty.php"); #goto index.php
 		exit(); #end php script
     } else {
