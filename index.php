@@ -118,4 +118,5 @@ session_start(); /*start session */
 
 </div>
 
+<!-- shared page bottom HTML -->
 <?php include 'common/common-footer.php'; ?>

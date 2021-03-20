@@ -12,86 +12,86 @@ session_start(); /*start session */
         <!--*****ROW 1*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -100,86 +100,86 @@ session_start(); /*start session */
         <!--*****ROW 2*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -188,86 +188,86 @@ session_start(); /*start session */
         <!--*****ROW 3*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -276,86 +276,86 @@ session_start(); /*start session */
         <!--*****ROW 4*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -364,86 +364,86 @@ session_start(); /*start session */
         <!--*****ROW 5*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -452,86 +452,86 @@ session_start(); /*start session */
         <!--*****ROW 6*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -540,86 +540,86 @@ session_start(); /*start session */
         <!--*****ROW 7*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -628,86 +628,86 @@ session_start(); /*start session */
         <!--*****ROW 8*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=30 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=30 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -716,86 +716,86 @@ session_start(); /*start session */
         <!--*****ROW 9*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=30 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=20 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -804,86 +804,86 @@ session_start(); /*start session */
         <!--*****ROW 10*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=20 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -892,86 +892,86 @@ session_start(); /*start session */
         <!--*****ROW 11*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=20 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -980,86 +980,86 @@ session_start(); /*start session */
         <!--*****ROW 12*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=20 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1068,86 +1068,86 @@ session_start(); /*start session */
         <!--*****ROW 13*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1156,86 +1156,86 @@ session_start(); /*start session */
         <!--*****ROW 14*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1244,86 +1244,86 @@ session_start(); /*start session */
         <!--*****ROW 15*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1332,86 +1332,86 @@ session_start(); /*start session */
         <!--*****ROW 16*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=50 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1420,86 +1420,86 @@ session_start(); /*start session */
         <!--*****ROW 17*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1508,86 +1508,86 @@ session_start(); /*start session */
         <!--*****ROW 18*****-->
         <tr>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=40 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=40  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=10 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
-                <form class="input" action="" method="POST" name="level_form">
-                    <input type="checkbox" name="score" value=0 checked="checked" hidden="true">
+                <form class="input" action="level2.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1644,7 +1644,7 @@ session_start(); /*start session */
         <form class="input" action="level2.php" method="POST" name="loading">
             <table>
                 <tr>
-                    <td colspan="2" class="centered">
+                    <td class="centered">
                         <input name="Submit" type="submit" class="submit-btn" value="Next Level">
                     </td>
                 </tr>
@@ -1661,7 +1661,7 @@ session_start(); /*start session */
         <form class="input" action="level2.php" method="POST" name="loading">
             <table>
                 <tr>
-                    <td colspan="2" class="centered">
+                    <td class="centered">
                         <input name="Submit" type="submit" class="submit-btn" value="Next Level">
                     </td>
                 </tr>
@@ -1686,4 +1686,5 @@ session_start(); /*start session */
     </form>
 </div>
 
+<!-- shared page bottom HTML -->
 <?php include 'common/common-footer.php'; ?>

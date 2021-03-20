@@ -66,4 +66,5 @@ $_SESSION["difficulty"] = 0;
     </form>
 </div>
 
+<!-- shared page bottom HTML -->
 <?php include 'common/common-footer.php'; ?>
