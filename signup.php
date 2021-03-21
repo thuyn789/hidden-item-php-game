@@ -1,74 +1,84 @@
-<?php session_start(); #start session?>
+<?php
+    session_start(); #start session
 
-<?php include 'common/common-meta-header.php'; ?>
-<h1 class="title">Sign up!</h1>
+?>
+<!doctype html>
+<html lang="en">
+<head>
+<title>
+    Sign Up Page
+</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
 
-<div class="inputs">
-    <form class="input" action="signup-submit.php" method="POST" name="signup_form">
-        <fieldset>
-            <table>
-                <!--Username row-->
-                <tr>
-                    <td>
-                        <label for="username">Username:</label>
-                    </td>
+<div class="container">
+    <div class="icon">
+        <img src="images/Signup.jpg">
+    </div>
 
-                    <td>
-                        <input name="username" type="text" size="16" placeholder="Username">
-                    </td>
-                </tr>
+        <div class="inputs">
+            <form class="input" action="./signup-submit.php" method="POST" name="signup_form">
+                <fieldset>
+                    <table>
+                        <!--Username row-->
+                        <tr>
+                            <td>
+                                <label for="username">Username:</label>
+                            </td>
 
-                <!--Email row-->
-                <tr>
-                    <td>
-                        <label for="email">Email:</label>
-                    </td>
+                            <td>
+                                <input name="username" type="text" size="16">
+                            </td>
+                        </tr>
 
-                    <td>
-                        <input name="email" type="text" size="16" placeholder="Email">
-                    </td>
-                </tr>
+                        <!--Password row-->
+                        <tr>
+                            <td>
+                                <label for="password">Password:</label>
+                            </td>
+        
+                            <td>
+                                <input name="password" type="text" size="16">
+                            </td>
+        
+                        </tr>
 
-                <!--Password row-->
-                <tr>
-                    <td>
-                        <label for="password">Password:</label>
-                    </td>
 
-                    <td>
-                        <input type="password" name="password" type="text" size="16" placeholder="Password">
-                    </td>
+                        <!--Confirm password row-->
+                        <tr>
+                            <td>
+                                <label for="confirm_password">Confirm Password:</label>
+                            </td>
+        
+                            <td>
+                                <input id="confirm_password" name="confirm_password" type="text" size="16">
+                            </td>
+                        </tr>
 
-                </tr>
+                        <!--Submit row-->
+                        <tr>
+                            <td colspan="2" class="centered">
+                                <input id="submit-btn" class="submit-btn" name="submit" type="submit" value="Sign up!">
+                            </td>
 
-                <!--Confirm password row-->
-                <tr>
-                    <td>
-                        <label for="confirm_password">Confirm Password:</label>
-                    </td>
+                        </tr>
+                        
+                        <!--Go to login-->
+                        <tr>
+                            <td colspan="2" class="centered" align="center">
+                                <a href="login.php">Login in</a>
+                            </td>
+                        </tr>
+                    </table>
 
-                    <td>
-                        <input type="password" id="confirm_password" name="confirm_password" type="text" size="16" placeholder="Confirm Password">
-                    </td>
-                </tr>
 
-                <!--Submit row-->
-                <tr>
-                    <td colspan="2" class="centered">
-                        <input id="submit-btn" class="submit-btn" name="submit" type="submit" value="Sign up!">
-                    </td>
 
-                </tr>
+                </fieldset>
 
-                <!--Go to login-->
-                <tr>
-                    <td colspan="2" class="centered" align="center">
-                        <a href="login.php">Already Registered? Login In</a>
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
-</div>
+            </form>
+        </div>
+    </div>
 
-<?php include 'common/common-footer.php'; ?>
+</body>
+</html>
