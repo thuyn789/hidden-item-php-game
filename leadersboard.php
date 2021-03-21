@@ -17,14 +17,16 @@ if(file_exists("user_database/user_leaderboard.txt")){
 	$data_file = "user_database/user_leaderboard.txt";
 }
 
-if (isset($_SESSION["username"]) && isset($_SESSION["score"])) {
+//***save current user's data to leadersboard.txt
+if (isset($_POST['Submit'])) {
+	echo "Saving Session variables2";
 	$username = $_SESSION["username"];
 	$score = $_SESSION["score"];
 	$save_str1 = $username . "," . $score . "\n";
 	file_put_contents($data_file, $save_str1, FILE_APPEND);
 }
 
-
+//***Save all user's data to "users" array and sort them
 //Assign all info to $current_data
 $current_data = file_get_contents($data_file);
 
@@ -71,6 +73,21 @@ arsort($users);
 	}
 	?>
 </table>
+
+<!--Information div-->
+<div>
+    <!--Logout button-->
+    <br/><br/>
+    <form class="input" action="logout.php" method="POST" name="login_form">
+        <table>
+            <tr>
+                <td colspan="2" class="centered">
+                    <input name="Submit" type="submit" class="submit-btn" value="Logout">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
 
 <!-- shared page bottom HTML -->
 <?php include 'common/common-footer.php'; ?>

@@ -49,6 +49,8 @@ session_start(); /*start session */
                 setcookie("username", $Username, time() - 3600, "/");
             }
         }
+        //save username to session variable for leader's board
+        $_SESSION['username'] = $Username; 
         header("location:level_difficulty.php"); #goto index.php
 		exit(); #end php script
     } else {

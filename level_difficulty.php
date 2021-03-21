@@ -48,7 +48,6 @@ session_start(); /*start session */
 
 <?php
 //Set session variable
-$_SESSION["username"] = $_COOKIE['username'];
 $_SESSION["score"] = 0;
 $_SESSION["difficulty"] = 0;
 ?>
