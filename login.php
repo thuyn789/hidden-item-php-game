@@ -66,67 +66,74 @@
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <a href="./logout.php"><button type="button" class="logout-btn">Logout</button></a>
-    <h1 class="title">Log in!</h1>
+    <div class="container">
+        <div class="logout">
+            <a href="./logout.php"><button type="button" class="logout-btn">Logout</button></a>
+        </div>
 
-    <div class="inputs">
+        <div class="icon">
+            <img src="images/Login.jpg">
+        </div>
+    
+        <div class="inputs">
 
-        <form class="input" action="" method="POST" name="login_form">
-            <fieldset>
-            <table> <!-- This table will contain the fields for the form-->
-                
-                <!--Username label & textfield row-->
-                <tr> 
-                    <td>
-                        <label for="username">Username:</label>
-                    </td>
-                    <td>
-                        <input name="username" type="text" size="16" value="<?php echo htmlentities($fill_username) ?>">
-                    </td>
-                </tr>
+            <form class="input" action="" method="POST" name="login_form">
+                <fieldset>
+                <table> <!-- This table will contain the fields for the form-->
+                    
+                    <!--Username label & textfield row-->
+                    <tr> 
+                        <td>
+                            <label for="username">Username:</label>
+                        </td>
+                        <td>
+                            <input name="username" type="text" size="16" value="<?php echo htmlentities($fill_username) ?>">
+                        </td>
+                    </tr>
 
-                <!--Password label & textfield row-->
-                <tr>
-                    <td>
-                        <label for="password">Password:</label>
-                    </td>
+                    <!--Password label & textfield row-->
+                    <tr>
+                        <td>
+                            <label for="password">Password:</label>
+                        </td>
 
-                    <td>
-                        <input name="password" type="text" size="16">
-                    </td>
+                        <td>
+                            <input name="password" type="text" size="16">
+                        </td>
 
-                </tr>
+                    </tr>
 
-                <!--Remember me checkbox row-->
-                <tr>
-                    <td>
-                        <input name="remember_me" id="remember_me" type="checkbox" value="true">
-                        <label for="remember_me">Remember Me</label>
-                    </td>
-                </tr>
+                    <!--Remember me checkbox row-->
+                    <tr>
+                        <td>
+                            <input name="remember_me" id="remember_me" type="checkbox" value="true">
+                            <label for="remember_me">Remember Me</label>
+                        </td>
+                    </tr>
 
-                <!--Submit button row-->
-                <tr>
-                    <td colspan="2" class="centered">
-                        <input name="Submit" type="submit" class="submit-btn">
-                    </td>
+                    <!--Submit button row-->
+                    <tr>
+                        <td colspan="2" class="centered">
+                            <input name="Submit" type="submit" class="submit-btn">
+                        </td>
 
-                </tr>
+                    </tr>
 
-                <!--Goto signup page row-->
-                <tr>
-                    <td colspan="2" class="centered">
-                        <a href="./signup.php"> Don't have an account? Sign up!</a>
-                    </td>
+                    <!--Goto signup page row-->
+                    <tr>
+                        <td colspan="2" class="centered">
+                            <a href="./signup.php"> Don't have an account? Sign up!</a>
+                        </td>
 
-                </tr>
+                    </tr>
 
 
-            </table>
-            </fieldset>
-        </form>
+                </table>
+                </fieldset>
+            </form>
 
-    </div>
+        </div>
+</div>
    
 </body>
 </html>
