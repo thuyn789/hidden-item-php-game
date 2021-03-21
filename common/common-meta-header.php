@@ -15,8 +15,7 @@ Version: 1.0 beta
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	<!-- Need to find icon for the game -->
-	<link rel="icon" type="imag/gif" href="pictures/heart-icon-web.png"/>
+	<link rel="icon" type="imag/gif" href="images/house.png"/>
 	<title>House of Mystery</title>
 </head>
 <body>
