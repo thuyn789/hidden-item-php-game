@@ -1,59 +1,14 @@
-.textfields-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   
-    width: 100%;
-    height: 100%;
-    /*border: 3px solid green*/
+body {
+    background-image: url("images/WoodenFrameBackground.jpg");
+    background-size: cover;
 }
 
-.top-container {
-    width: 100%;
-    height: 20%;
-    /*background-color: red;*/
+button.logout-btn {
+    background-color: #b7410e;
+    color: #0e84b7;
+    width: 7.5%;
 }
 
-.mid-container {
-    width: 100%;
-    flex-grow: 1;
-    /*background-color: green;*/
-    display: flex;
-    flex-direction: row;
-}
-
-.mid-left-container {
-    width: 30%;
-    height: 100%;
-    /*background-color: yellow; */
-}
-
-
-.mid-center-container {
-    height: 100%;
-    flex-grow: 1;
-    /*border: 3px solid yellow;*/
-    justify-content: center;
-}
-
-.mid-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 30%;
-
-}
-
-.mid-right-container {
-    width: 30%;
-    height: 100%;
-    /*background-color: greenyellow;*/
-}
-
-.bottom-container {
-    width: 100%;
-    height: 20%;
-    /*background-color: blue;*/
-}
 
 form.input {
     
@@ -61,30 +16,47 @@ form.input {
 }
 
 fieldset {
-    background-color: azure;
-}
-
-ul {
-    margin-top: 20px;
-}
-
-li {
-    margin-top: 10px;
+    background-color: #b7410e;
+	border: 2px outset gray;
+	border-radius: 10px;
+    color: #0eb741;
 }
 
 /*
 Test.html stuff
 */
 
-.inputs {
+div.container {
+    width: 100%;
+    height: 100%;
+    /*border: 4px solid green;*/
+    display: flex;
+    flex-direction: column;
+}
+
+div.logout {
+    width: 100%;
+    /*border: 2px solid blue;*/
+}
+
+div.icon {
+    width:100%;
+    height: 100%;
+    flex-grow: 1;   
+    /*border: 2px solid orange;*/
+    text-align: center;
+}
+
+div.inputs {
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 150px;
+    /*border: 3px solid red;*/ 
 }
 
 h1.title {
     font-weight: bold;
-    margin-left: 45%;
+    margin-left: 2px;
 }
 
 input.submit-btn {
@@ -92,9 +64,29 @@ input.submit-btn {
 }
 
 tr.centered {
-    align: center;
+    align-self: center;
 }
 
 p.error {
     color: red;
+}
+
+div.frame-test {
+    width: 35%;
+    height: 35%;
+    /*border: 5px solid red;*/
+    background-image: url("images/LightsFrame.JPG");
+    background-size: 100%, 100%;
+}
+
+img.logo_login {
+    position: relative;
+    margin-left: 5px;
+    left: 5px;
+}
+
+.logo {
+    border: 3px solid red;
+    width: 50%;
+    height: 50%;
 }
