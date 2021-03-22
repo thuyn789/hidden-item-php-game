@@ -72,7 +72,7 @@
         </div>
 
         <div class="icon">
-            <img src="images/Login.jpg">
+            <img src="images/login.jpg">
         </div>
     
         <div class="inputs">
