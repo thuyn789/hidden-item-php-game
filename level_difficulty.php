@@ -54,7 +54,7 @@ $_SESSION["difficulty"] = 0;
 
 <!--Logout button-->
 <div>
-    <form class="input" action="logout.php" method="POST" name="login_form">
+    <form class="input" action="logout.php" method="POST" name="logout_form">
         <table>
             <tr>
                 <td colspan="2" class="centered">

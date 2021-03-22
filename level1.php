@@ -6,11 +6,47 @@ session_start(); /*start session */
 <?php include 'common/common-meta-header.php'; ?>
 
 <!--****Core - Game Engine****-->
-<div class=" games level1">
-    <img class="level1_image" src="images/Hidden-Objects-Pets-2-scaled.jpg" alt="level1_image">
+<div class="games level1">
+    <img class="level1_image" src="images/game1.png" alt="level1_image">
     <table> 
         <!--*****ROW 1*****-->
         <tr>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
@@ -111,6 +147,42 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 3*****-->
@@ -135,7 +207,13 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
+                    <input type="hidden" name="score" value=50  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -160,6 +238,36 @@ session_start(); /*start session */
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=30  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -167,6 +275,42 @@ session_start(); /*start session */
 
         <!--*****ROW 4*****-->
         <tr>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=50  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
@@ -267,6 +411,42 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 6*****-->
@@ -319,13 +499,9 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
-        </tr>
-
-        <!--*****ROW 7*****-->
-        <tr>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=10  >
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -337,7 +513,83 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+        </tr>
+
+        <!--*****ROW 7*****-->
+        <tr>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -389,7 +641,13 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -407,7 +665,37 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=30  >
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -475,6 +763,42 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 10*****-->
@@ -527,6 +851,42 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 11*****-->
@@ -540,6 +900,42 @@ session_start(); /*start session */
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -621,6 +1017,12 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=20  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
@@ -628,6 +1030,36 @@ session_start(); /*start session */
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -656,6 +1088,42 @@ session_start(); /*start session */
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -735,10 +1203,82 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=10  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 15*****-->
         <tr>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
@@ -839,6 +1379,42 @@ session_start(); /*start session */
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
         </tr>
 
         <!--*****ROW 17*****-->
@@ -857,7 +1433,13 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -875,13 +1457,43 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=10  >
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=10  >
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
+                    <input name="submit" type="submit" class="submit-btn" value="Click">
+                </form>
+            </td>
+            <td>
+                <form class="input" action="level1.php" method="POST" name="level_form">
+                    <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -903,156 +1515,6 @@ session_start(); /*start session */
             </td>
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=10  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 19*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=10  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 20*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=40  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr> 
-
-        <!--*****ROW 21*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
@@ -1096,236 +1558,6 @@ session_start(); /*start session */
             <td>
                 <form class="input" action="level1.php" method="POST" name="level_form">
                     <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 22*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 23*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 24*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 25*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-        </tr>
-
-        <!--*****ROW 26*****-->
-        <tr>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=0  >
-                    <input name="submit" type="submit" class="submit-btn" value="Click">
-                </form>
-            </td>
-            <td>
-                <form class="input" action="level1.php" method="POST" name="level_form">
-                    <input type="hidden" name="score" value=50  >
                     <input name="submit" type="submit" class="submit-btn" value="Click">
                 </form>
             </td>
@@ -1367,7 +1599,7 @@ session_start(); /*start session */
 <!--Information div-->
 <div>
     <!--Score goes here-->
-    <br/><br/>
+    <br/><br/><br/><br/>
     <?php 
     $score = $total = 0;
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -1419,8 +1651,7 @@ session_start(); /*start session */
             </table>
         </form>
         <?php
-        
-        
+
     } else if($_SESSION["difficulty"] == 200 && $total >= 200){
         echo "Congratulation!<br/>";
         echo "You have completed this level with Hard Difficulty<br/>";
@@ -1437,14 +1668,14 @@ session_start(); /*start session */
             </table>
         </form>
         <?php
-          
+
     }
     ?>
     <p>Your score: <?php echo $total; ?></p>
 
     <!--Logout button-->
     <br/><br/>
-    <form class="input" action="logout.php" method="POST" name="login_form">
+    <form class="input" action="logout.php" method="POST" name="logout_form">
         <table>
             <tr>
                 <td colspan="2" class="centered">

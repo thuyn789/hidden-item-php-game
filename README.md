@@ -1,1 +1,1 @@
-# php_game
+# House of Mystery - Hidden Items Game

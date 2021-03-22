@@ -105,17 +105,17 @@ Styling for all levels in games
     align: center;
 }
 
-div.level1{
+div.games{
     margin: auto;
 }
 
-div.level1 table, th, td {
+div.games table, th, td {
     /*border: 5px solid black*/
     border: transparent;
     border-collapse: collapse;
 }
 
-div.level1 input{
+div.games input{
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
@@ -127,16 +127,12 @@ div.level1 input{
     font-size: 20px;
 }
 
-div.level1 img{
+div.games img{
     position: absolute;
     z-index: -1;
 }
 
-.level1_image{
-    width: 700px;
-}
-
-.level2_image{
+.level1_image, .level2_image{
     width: 950px;
 }
 
