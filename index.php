@@ -50,7 +50,7 @@ session_start(); /*start session */
             }
         }
         //save username to session variable for leader's board
-        $_SESSION['username'] = $Username; 
+        $_SESSION['user_name'] = $Username; 
         header("location:level_difficulty.php"); #goto index.php
 		exit(); #end php script
     } else {
@@ -61,7 +61,9 @@ session_start(); /*start session */
 
 <?php include 'common/common-meta-header.php'; ?>
 
-<h1 class="title">Log in!</h1>
+<div class="icon">
+    <img src="images/login.jpg">
+</div>
 
 <div class="inputs">
 

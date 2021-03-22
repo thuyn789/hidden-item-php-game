@@ -19,8 +19,7 @@ if(file_exists("user_database/user_leaderboard.txt")){
 
 //***save current user's data to leadersboard.txt
 if (isset($_POST['Submit'])) {
-	echo "Saving Session variables2";
-	$username = $_SESSION["username"];
+	$username = $_SESSION["user_name"];
 	$score = $_SESSION["score"];
 	$save_str1 = $username . "," . $score . "\n";
 	file_put_contents($data_file, $save_str1, FILE_APPEND);
