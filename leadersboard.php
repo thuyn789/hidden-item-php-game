@@ -49,44 +49,51 @@ arsort($users);
 
 <!-- your HTML output follows -->
 <!-- Display all users with their score -->
-
-<h1>Leader's Board</h1>
-
-<table class="leadersboard">
-	<tr>
-		<th>Rank</th>
-		<th>Username</th>
-		<th>Score</th>
-	</tr>
-	<?php
-	$rank = 1; 
-	foreach($users as $name => $value) {
-		?>
-		<tr>
-			<td><?= $rank ?></td>
-			<td><?= $name ?></td>
-			<td><?= $value ?></td>
-		</tr>
-		<?php
-		$rank++;
-	}
-	?>
-</table>
-
-<!--Information div-->
-<div>
-    <!--Logout button-->
-    <br/><br/>
-    <form class="input" action="logout.php" method="POST" name="login_form">
-        <table>
-            <tr>
-                <td colspan="2" class="centered">
-                    <input name="Submit" type="submit" class="submit-btn" value="Logout">
-                </td>
-            </tr>
-        </table>
-    </form>
+<div class="leadersboard_title">
+	<h1>Leader's Board</h1>
 </div>
+<div class="input">
+	<div id="cf4" class="hover">
+		<img  class="top shadow" src="images/Ta.jpg" alt="no images" >
+		<img  class="bottom shadow" src="images/fly.jpg" alt="no images" >
+	</div>
+	<div class="info_box">
+		<table id='customers'>
+			<tr>
+				<th>Rank</th>
+				<th>Username</th>
+				<th>Score</th>
+			</tr>
+			<?php
+			$rank = 1; 
+			foreach($users as $name => $value) {
+				?>
+				<tr>
+					<td><?= $rank ?></td>
+					<td><?= $name ?></td>
+					<td><?= $value ?></td>
+				</tr>
+				<?php
+				$rank++;
+			}
+			?>
+		</table>
 
+		<!--Information div-->
+		<div>
+			<!--Logout button-->
+			<br/><br/>
+			<form class="input logout_div" action="logout.php" method="POST" name="login_form">
+				<table>
+					<tr>
+						<td colspan="2" class="centered">
+							<input name="Submit" type="submit" class="submit-btn logout-button" value="Logout">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- shared page bottom HTML -->
 <?php include 'common/common-footer.php'; ?>

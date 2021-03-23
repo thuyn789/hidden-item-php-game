@@ -1,10 +1,11 @@
 <?php session_start(); #start session?>
 
 <?php include 'common/common-meta-header.php'; ?>
-<h3>Thank you for playing our game.</h3> <br/><br/>
+<div class="logout-title">
+	<h3>Thank you for playing our game.</h3> <br/>
 
-You can now safely close the window.
-
+	<p>You can now safely close the window.</p>
+</div>
 <?php
     session_unset(); //Remove all session variables
     session_destroy(); //Destroy the session

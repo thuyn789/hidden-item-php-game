@@ -65,7 +65,7 @@ session_start(); /*start session */
     <img src="images/login.jpg">
 </div>
 
-<div class="inputs">
+<div class="input-div">
 
     <form class="input" action="" method="POST" name="login_form">
         <fieldset>

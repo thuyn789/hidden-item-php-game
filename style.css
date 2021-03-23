@@ -3,12 +3,6 @@ body {
     background-size: cover;
 }
 
-button.logout-btn {
-    background-color: #b7410e;
-    color: #0e84b7;
-    width: 7.5%;
-}
-
 form.input {
     height: 50%;
 }
@@ -17,7 +11,7 @@ fieldset {
     background-color: #b7410e;
     border: 2px outset gray;
     border-radius: 10px;
-    color: #0eb741;
+    color:yellow;
 }
 
 ul {
@@ -53,10 +47,16 @@ div.icon {
     text-align: center;
 }
 
-div.inputs {
+div.input-div {
     display: flex;
     justify-content: center;
     margin-top: 150px;
+    /*border: 3px solid red;*/ 
+}
+div.input {
+    display: flex;
+    justify-content:right;
+    margin-top: 50px;
     /*border: 3px solid red;*/ 
 }
 
@@ -71,6 +71,12 @@ input.submit-btn {
 
 tr.centered {
     align-self: center;
+}
+
+div form.logout_div{
+    width:25px;
+    margin-top:20px;
+    margin-left:150px;
 }
 
 p.error {
@@ -97,6 +103,15 @@ img.logo_login {
     height: 50%;
 }
 
+div.info_box{
+    float:left;
+    justify-content: center;
+    border:2px solid;
+    width:400px;
+    height:300px;
+    margin-right: 200px;
+    background-image: linear-gradient(to bottom right, #bf00ff,#330000);
+}
 
 /*
 Styling for all levels in games
@@ -140,6 +155,146 @@ div.games img{
     width: 700px;
 }
 
-.leadersboard td, th{
-    border: 2px solid black;
+div.level_diff_title, div.logout-title{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #bf00ff,#330000);
+    color:white;
+    width:auto;
+    height:100px;
 }
+
+div.info_box form.level_form{
+    margin-top:40px;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.info_box fieldset legend{
+    border:1px solid grey;
+    background:blue;
+}
+
+div.info_box fieldset table{
+    padding:10px;
+}
+
+/*Animation Effects for hovering pictures*/
+#cf4 {
+    position:relative;
+    width:800px;
+    height:500px;
+    margin-top:10px;
+    
+}
+
+#cf4 img.shadow{
+    width:800px;
+    height:500px;
+    margin-left: -350px;
+    margin-top:-15px;
+    border:2px solid;
+}
+
+#cf4 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#cf4 img.top {
+    -webkit-transform:scale(0,0);
+    -moz-transform:scale(0,0);
+    -o-transform:scale(0,0);
+    transform:scale(0,0);
+    opacity:0;
+
+}
+
+#cf4:hover img.top{
+    opacity:1;
+    -webkit-transform:scale(1,1);
+    -webkit-transform-origin: top right;
+    -moz-transform:scale(1,1);
+    -moz-transform-origin: top right;
+    -o-transform:scale(1,1);
+    -o-transform-origin: top right;
+    transform:scale(1,1);
+    transform-origin: top right;
+}
+
+#cf4:hover img.bottom{
+    -webkit-transform:scale(0,0);
+    -webkit-transform-origin: bottom left;
+    -moz-transform:scale(0,0);
+    -moz-transform-origin: bottom left;
+    -o-transform:scale(0,0);
+    -o-transform-origin: bottom left;
+    transform:scale(0,0);
+    transform-origin: bottom left;
+} 
+
+/*Leader's Board*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+
+}
+
+#customers td, #customers th {
+    border: 1px solid blue;
+    text-align: center;
+    padding: 4px;
+
+}
+#customers tr{
+  background-color: #00003f;
+  color: orange;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;color: #00003f;}
+
+#customers tr:hover {background-color: #8000ff;}
+
+#customers th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+div.leadersboard_title{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #bf00ff,#330000);
+    color:white;
+    width:auto;
+    height:50px;
+}
+
+.logout-button {
+    padding: 10px 25px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: orange;
+    background-color: #00003f;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px;
+}
+
+.logout-button:hover {background-color: #3e8e41}
+
+.logout-button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+} 
