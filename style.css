@@ -104,7 +104,7 @@ img.logo_login {
 }
 
 div.info_box{
-    float:left;
+    float:right;
     justify-content: center;
     border:2px solid;
     width:400px;
@@ -116,12 +116,19 @@ div.info_box{
 /*
 Styling for all levels in games
 */
-.games{
-    align: center;
-}
 
 div.games{
-    margin: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.level1, div.level2{
+    width: 970px;
+}
+
+div.level3{
+    width: 720px;
 }
 
 div.games table, th, td {
@@ -130,7 +137,7 @@ div.games table, th, td {
     border-collapse: collapse;
 }
 
-div.games input{
+div.games form.input input{
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
@@ -163,7 +170,7 @@ div.level_diff_title, div.logout-title{
     height:100px;
 }
 
-div.info_box form.level_form{
+form.level_form{
     margin-top:40px;
     width: 350px;
     margin-right: auto;
@@ -179,11 +186,17 @@ div.info_box fieldset table{
     padding:10px;
 }
 
+div.info_box fieldset table td select{
+    margin-top:15px;
+}
+
 /*Animation Effects for hovering pictures*/
 #cf4 {
     position:relative;
     width:800px;
     height:500px;
+    margin-left: 50px;
+    margin-right: auto;
     margin-top:10px;
     
 }
@@ -191,7 +204,6 @@ div.info_box fieldset table{
 #cf4 img.shadow{
     width:800px;
     height:500px;
-    margin-left: -350px;
     margin-top:-15px;
     border:2px solid;
 }
@@ -271,7 +283,7 @@ div.info_box fieldset table{
     color: white;
 }
 
-div.leadersboard_title{
+div.leadersboard_title, div.level_title{
     text-align: center;
     background-image: linear-gradient(to bottom right, #bf00ff,#330000);
     color:white;

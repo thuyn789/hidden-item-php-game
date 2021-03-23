@@ -30,7 +30,7 @@ session_start(); /*start session */
                         </td>
 
                         <td >
-                            <select name="difficulty"style="margin-top:15px;" >
+                            <select name="difficulty">
                                 <option value="50">Easy (50 points)</option>
                                 <option value="100">Normal (100 points)</option>
                                 <option value="200">Hard (200 points)</option>

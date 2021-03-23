@@ -4,6 +4,9 @@ session_start(); /*start session */
 ?>
 
 <?php include 'common/common-meta-header.php'; ?>
+<div class="level_title">
+    <h1>Level 3</h1>
+</div>
 
 <!--****Core - Game Engine****-->
 <div class="games level3">
@@ -1361,28 +1364,25 @@ session_start(); /*start session */
             </td>
         </tr>
     </table>
-</div>
-<!--****Core - Game Engine End****-->
 
-<!--Information div-->
-<div>
-    <!--Score goes here-->
-    <br/><br/>
-    <?php 
-    $score = $total = 0;
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (isset($_POST["score"])) {
-            $score = (int) $_POST["score"];
-        }
+    <div>
+        <!--Score goes here-->
+        <br/><br/>
+        <?php 
+        $score = $total = 0;
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            if (isset($_POST["score"])) {
+                $score = (int) $_POST["score"];
+            }
 
-        if (isset($_POST["difficulty"])) {
-            $_SESSION["difficulty"] = (int) $_POST["difficulty"];
+            if (isset($_POST["difficulty"])) {
+                $_SESSION["difficulty"] = (int) $_POST["difficulty"];
+            }
         }
-    }
 
     //Add total score so far
-    $total = $_SESSION["score"];
-    $total += $score;
+        $total = $_SESSION["score"];
+        $total += $score;
     $_SESSION["score"] = $total;//set new score
 
     //Execute according to difficulty level
@@ -1392,7 +1392,7 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="leadersboard.php" method="POST" name="loading">
+        <form class="loading" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td colspan="2" class="centered">
@@ -1409,7 +1409,7 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="leadersboard.php" method="POST" name="loading">
+        <form class="loading" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td class="centered">
@@ -1427,7 +1427,7 @@ session_start(); /*start session */
         echo "Loading Next Screen...<br/>";
 
         ?> 
-        <form class="input" action="leadersboard.php" method="POST" name="loading">
+        <form class="loading" action="leadersboard.php" method="POST" name="loading">
             <table>
                 <tr>
                     <td class="centered">
@@ -1437,10 +1437,17 @@ session_start(); /*start session */
             </table>
         </form>
         <?php
-          
+
     }
     ?>
     <p>Your score: <?php echo $total; ?></p>
+</div>
+</div>
+<!--****Core - Game Engine End****-->
+
+<!--Information div-->
+<div>
+
 
     <!--Logout button-->
     <br/><br/>
@@ -1448,7 +1455,7 @@ session_start(); /*start session */
         <table>
             <tr>
                 <td colspan="2" class="centered">
-                    <input name="Submit" type="submit" class="submit-btn" value="Logout">
+                    <input name="Submit" type="submit" class="submit-btn logout-button" value="Logout">
                 </td>
             </tr>
         </table>
