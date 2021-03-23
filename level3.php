@@ -1387,7 +1387,7 @@ session_start(); /*start session */
 
     //Execute according to difficulty level
     if($_SESSION["difficulty"] == 50 && $total >= 150){
-        echo "Congratulation!<br/>";
+        echo "<br/>Congratulation!<br/>";
         echo "You have completed this level with Easy Difficulty<br/>";
         echo "Loading Next Screen...<br/>";
 
@@ -1404,7 +1404,7 @@ session_start(); /*start session */
         <?php
 
     } else if($_SESSION["difficulty"] == 100 && $total >= 200){
-        echo "Congratulation!<br/>";
+        echo "<br/>Congratulation!<br/>";
         echo "You have completed this level with Normal Difficulty<br/>";
         echo "Loading Next Screen...<br/>";
 
@@ -1422,7 +1422,7 @@ session_start(); /*start session */
         
         
     } else if($_SESSION["difficulty"] == 200 && $total >= 300){
-        echo "Congratulation!<br/>";
+        echo "<br/>Congratulation!<br/>";
         echo "You have completed this level with Hard Difficulty<br/>";
         echo "Loading Next Screen...<br/>";
 
@@ -1440,7 +1440,7 @@ session_start(); /*start session */
 
     }
     ?>
-    <p>Your score: <?php echo $total; ?></p>
+    <p class="total_score">Your score: <?php echo $total; ?></p>
 </div>
 </div>
 <!--****Core - Game Engine End****-->

@@ -132,7 +132,7 @@ div.level3{
 }
 
 div.games table, th, td {
-    /*border: 5px solid black*/
+    /*border: 5px solid black*/ /*for testing purposes*/
     border: transparent;
     border-collapse: collapse;
 }
@@ -144,12 +144,14 @@ div.games form.input input{
     overflow: hidden;
     outline:none; 
     background-color: transparent;
-    /*color: blue;*/
+    /*color: blue;*/ /*for testing purposes*/
     color:transparent;
     font-size: 20px;
 }
 
 div.games img{
+    color: blue;
+    box-shadow: 0 0 20px 15px;
     position: absolute;
     z-index: -1;
 }
@@ -160,6 +162,22 @@ div.games img{
 
 .level3_image{
     width: 700px;
+}
+
+p.total_score{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+}
+
+p.total_score:hover, p.total_score:focus{
+    animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  from {background-color: transparent;}
+  to {color: white; background-color: blue;}
 }
 
 div.level_diff_title, div.logout-title{
@@ -190,7 +208,9 @@ div.info_box fieldset table td select{
     margin-top:15px;
 }
 
-/*Animation Effects for hovering pictures*/
+/*
+Animation Effects for hovering pictures
+*/
 #cf4 {
     position:relative;
     width:800px;
@@ -249,7 +269,9 @@ div.info_box fieldset table td select{
     transform-origin: bottom left;
 } 
 
-/*Leader's Board*/
+/*
+Leader's Board
+*/
 #customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -291,6 +313,10 @@ div.leadersboard_title, div.level_title{
     height:50px;
 }
 
+/*
+Styling for logout button
+*/
+
 .logout-button {
     padding: 10px 25px;
     font-size: 18px;
@@ -304,9 +330,15 @@ div.leadersboard_title, div.level_title{
     box-shadow: 0 0 10px 5px;
 }
 
-.logout-button:hover {background-color: #3e8e41}
+.logout-button:hover {animation: highlight 1s forwards;}
 
+@keyframes highlight {
+  from {}
+  to {color: white; background-color: blue;}
+}
+
+/*
 .logout-button:active {
     background-color: #3e8e41;
     transform: translateY(4px);
-} 
+} */
