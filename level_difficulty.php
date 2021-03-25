@@ -13,11 +13,6 @@ session_start(); /*start session */
     
 </div>
 <div class="input">
-    <div id="cf4" class="hover">
-        <img  class="bottom shadow" src="images/Ta.jpg" alt="no images">
-        <img  class="top shadow" src="images/fly.jpg" alt="no images">
-
-    </div>
     <div class="info_box">
         <form class="input level_form" action="level1.php" method="POST" name="level_form">
             <fieldset>
@@ -61,8 +56,7 @@ session_start(); /*start session */
                 </table>
             </form>
         </div>
-    </div>
-    
+    </div>  
 </div>
 
 <?php

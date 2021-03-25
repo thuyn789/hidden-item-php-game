@@ -53,10 +53,6 @@ arsort($users);
 	<h1>Leader's Board</h1>
 </div>
 <div class="input">
-	<div id="cf4" class="hover">
-		<img  class="top shadow" src="images/Ta.jpg" alt="no images" >
-		<img  class="bottom shadow" src="images/fly.jpg" alt="no images" >
-	</div>
 	<div class="info_box">
 		<table id='customers'>
 			<tr>
