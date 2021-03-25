@@ -34,7 +34,7 @@ $current_data = file_get_contents($data_file);
 $lines = explode("\n", $current_data);
 
 	//this 'for' loop will look for the user
-for($i=0; $i < count($lines); $i++){
+for($i=0; $i < count($lines)-1; $i++){
 	$detail_info = explode(",", $lines[$i]);
 	/* $detail_info[0] = username
 	$detail_info[1] = score */

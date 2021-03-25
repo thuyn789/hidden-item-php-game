@@ -109,7 +109,8 @@ div.info_box{
     border:2px solid;
     width:400px;
     height:300px;
-    margin-right: 200px;
+    margin-right: auto;
+    margin-left: auto;
     background-image: linear-gradient(to bottom right, #bf00ff,#330000);
 }
 

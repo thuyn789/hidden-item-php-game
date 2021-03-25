@@ -1,4 +1,4 @@
-admin,200
+admin,400
 user1,300
 admin,120
 admin,110
@@ -7,5 +7,4 @@ admin,150
 admin,160
 admin,180
 admin,160
-admin,160
-,180
+admin,290

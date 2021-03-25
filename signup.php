@@ -7,7 +7,7 @@
         <img src="images/Signup.jpg">
     </div>
 
-    <div class="inputs">
+    <div class="input-div">
         <form class="input" action="signup-submit.php" method="POST" name="signup_form">
             <fieldset>
                 <table>
@@ -67,7 +67,7 @@
                     <!--Go to login-->
                     <tr>
                         <td colspan="2" class="centered" align="center">
-                            <a href="login.php">Already Registered? Login In</a>
+                            <a href="index.php">Already Registered? Login In</a>
                         </td>
                     </tr>
                 </table>
